@@ -1,0 +1,71 @@
+/* Won't lie don't fully understand how containers work, googled around trying to find how to 
+make a site more narrow and containers came up as a possible solution. Here's what I think I
+know about containers. I understand border, background, height, width. I don't fully 
+understand position:relative, top, margin */
+#container	{
+	position:relative;
+    top:0px;
+    margin-left:auto;
+	margin-right:auto;
+	width: 650px;
+	height: auto;
+	background: lightgrey;
+	border: 5px solid black;
+}
+
+h1	{
+	text-align: center;
+	font-family: calibri;
+}
+
+h2	{
+	text-align: left;
+	font-family: calibri;
+	padding-left: 5px;
+}
+
+h3	{
+	text-align: center;
+	font-family: calibri;
+}
+
+h4	{
+	text-align: left;
+	font-family: calibri;
+	padding-left: 5px;
+}
+
+nav	{
+	text-align: center;
+	font-family: calibri;
+	padding: 5px;
+}
+
+a:hover	{
+	background: grey
+}
+
+/* Dont fully understand clear:both; & display: block; */
+img	{ 
+	margin-right: 10px;
+	clear:both;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Dont fully understand overflow:auto; & display: block; */
+p {
+	text-align: justify;
+	font-family: calibri;
+	color: black
+	margin-left: 0px;
+	overflow:auto;
+	display:block;
+	padding: 5px;
+}
+
+ul	{
+	text-align: left;
+	font-family: calibri;
+}
